@@ -10,7 +10,8 @@ class _AuthenticateState extends State<Authenticate> {
   @override
   Widget build(BuildContext context) {
     return Container(
-    child: SignIn(),  
+    child: SignIn(),
+    text: Text('Successfully'),
     );
   }
 }
